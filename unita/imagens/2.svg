@@ -1,0 +1,25 @@
+<!-- arquivo-agl-wordmark.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" width="480" height="100" role="img" aria-label="Arquivo AGL">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#3A6DF0"></stop>
+      <stop offset="1" stop-color="#5BE3B4"></stop>
+    </linearGradient>
+    <style>
+      .main {
+        font: 700 48px/1 "Segoe UI", Roboto, Arial, sans-serif;
+        fill: url(#grad);
+        letter-spacing: 2px;
+      }
+      .sub {
+        font: 400 16px/1 "Segoe UI", Roboto, Arial, sans-serif;
+        fill: #444;
+      }
+    </style>
+  </defs>
+
+  <!-- Texto principal -->
+  <text x="20" y="60" class="main">Arquivo AGL</text>
+  <!-- Subtexto opcional (slogan) -->
+  <text x="24" y="85" class="sub">Soluções em gestão de arquivos</text>
+</svg>
