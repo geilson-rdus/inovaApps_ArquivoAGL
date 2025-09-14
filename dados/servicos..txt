@@ -1,0 +1,30 @@
+# DETALHES DOS SERVIÇOS OFERECIDOS PELA ARQUIVO AGL
+
+## 1. Desenvolvimento Web
+Criamos sites e aplicações web customizadas, responsivas e otimizadas para performance.
+* **O que inclui:**
+    * Criação de sites institucionais e landing pages.
+    * Desenvolvimento de lojas virtuais (e-commerce) completas.
+    * Sistemas web complexos (dashboards, áreas de membros, etc.).
+    * Otimização para Mecanismos de Busca (SEO).
+    * Manutenção e suporte contínuo.
+* **Tecnologias:** HTML5, CSS3, JavaScript, React, Node.js, Bancos de Dados SQL e NoSQL.
+
+## 2. Soluções em Nuvem (Cloud)
+Implementamos e gerenciamos infraestrutura na nuvem para garantir escalabilidade, segurança e redução de custos.
+* **O que inclui:**
+    * Migração de sistemas locais para a nuvem (AWS, Google Cloud, Azure).
+    * Arquitetura de sistemas escaláveis e resilientes.
+    * Automação de infraestrutura (Infrastructure as Code).
+    * Monitoramento de performance e segurança.
+    * Consultoria para otimização de custos na nuvem.
+* **Para quem é:** Empresas que buscam mais segurança, flexibilidade e não querem se preocupar com a manutenção de servidores físicos.
+
+## 3. Consultoria de TI
+Oferecemos orientação estratégica para alinhar sua tecnologia aos objetivos do seu negócio.
+* **O que inclui:**
+    * Análise de processos de negócio e identificação de oportunidades de automação.
+    * Planejamento estratégico de TI.
+    * Diagnóstico de segurança da informação.
+    * Recomendação de ferramentas e tecnologias.
+* **Como funciona:** Realizamos uma série de reuniões para entender o seu negócio e, ao final, entregamos um plano de ação detalhado com os próximos passos recomendados.

@@ -1,0 +1,16 @@
+# INFORMAÇÕES GERAIS SOBRE A ARQUIVO AGL
+
+## Missão da Empresa
+Nossa missão é transformar ideias complexas em realidade através de soluções de tecnologia inovadoras, impulsionando o crescimento e o sucesso dos nossos clientes.
+
+## Visão da Empresa
+Ser a principal referência em consultoria e desenvolvimento de software sob medida no Brasil, reconhecida pela excelência técnica e pela parceria estratégica com nossos clientes.
+
+## Nossos Valores
+* **Inovação:** Buscamos constantemente novas tecnologias e abordagens para resolver problemas de forma criativa e eficiente.
+* **Qualidade:** Nosso compromisso é com a entrega de software robusto, seguro e com a melhor experiência de usuário.
+* **Parceria com o Cliente:** Acreditamos que o sucesso do projeto depende de uma colaboração próxima e transparente com o cliente em todas as etapas.
+* **Integridade:** Agimos com honestidade e ética em todas as nossas relações.
+
+## História
+A Arquivo AGL foi fundada em 2015 por um grupo de especialistas apaixonados por tecnologia. Desde então, temos orgulho de ter entregado dezenas de projetos que ajudaram empresas de todos os portes a otimizar processos e alcançar seus objetivos.
