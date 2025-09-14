@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA nas Soluções Digitais - Unitá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" onclick="showHome()">Unitá IA</a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a onclick="showHome()">Home</a></li>
+                <li class="nav-item"><a href="#about">Sobre</a></li>
+                <li class="nav-item"><a onclick="showLogin()">Login</a></li>
+                <li class="nav-item"><a onclick="showRegister()">Criar Conta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="homeSection">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>IA nas Soluções Digitais</h1>
+                <p>Revolucionando o atendimento ao cliente com inteligência artificial avançada</p>
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <h2 class="section-title">Sobre Nós</h2>
+            <p class="section-subtitle">
+                Nós implementamos o uso da inteligência artificial para ajudar clientes, onde caso a dúvida permanecer o próprio IA cria um chamado para isso.
+            </p>
+            <div class="cards-container">
+                <div class="card"><div class="card-icon">👤</div><h3>1 - Crie uma conta</h3><p>Registre-se em nossa plataforma para começar a usar nossos serviços de IA.</p></div>
+                <div class="card"><div class="card-icon">💬</div><h3>2 - Após o login pode fazer perguntas para IA</h3><p>Interaja com nossa IA inteligente e obtenha respostas instantâneas.</p></div>
+                <div class="card"><div class="card-icon">📋</div><h3>3 - Você pode visualizar seus chamados</h3><p>Acompanhe todos os seus chamados e seus status em tempo real.</p></div>
+            </div>
+        </section>
+    </main>
+
+    <section class="dashboard" id="dashboardSection">
+        <h1 id="dashboardTitle">Painel de Controle</h1>
+        <div class="tickets-section">
+            <h2 id="ticketsTitle">Meus Chamados</h2>
+            <div class="tickets-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="open">Abertos</button>
+                <button class="filter-btn" data-filter="closed">Fechados</button>
+                <button class="filter-btn" data-filter="answered">Respondidos</button>
+                <button class="filter-btn" data-filter="unanswered">Não Respondidos</button>
+            </div>
+            <div class="tickets-grid" id="ticketsGrid"></div>
+        </div>
+    </section>
+
+    <div class="chat-widget hidden" id="chatWidget">
+        <button class="chat-button" id="chatButton">💬</button>
+        <div class="chat-popup" id="chatPopup"><div class="chat-header"><h3>Assistente IA</h3><button class="chat-close" id="chatClose">×</button></div><div class="chat-messages" id="chatMessages"></div><div class="chat-input-container"><input type="text" class="chat-input" id="chatInput" placeholder="Digite sua mensagem..."><button class="send-button" id="sendButton">➤</button></div></div>
+    </div>
+
+    <div class="modal" id="loginModal"><div class="modal-content"><button class="modal-close" onclick="closeModal('loginModal')">×</button><h2>Login</h2><form id="loginForm"><div class="form-group"><label for="loginUsername">Usuário:</label><input type="text" id="loginUsername" required></div><div class="form-group"><label for="loginPassword">Senha:</label><input type="password" id="loginPassword" required></div><button type="submit" class="btn">Entrar</button></form></div></div>
+    <div class="modal" id="registerModal"><div class="modal-content"><button class="modal-close" onclick="closeModal('registerModal')">×</button><h2>Criar Conta</h2><form id="registerForm"><div class="form-group"><label for="registerUsername">Usuário:</label><input type="text" id="registerUsername" required></div><div class="form-group"><label for="registerEmail">Email:</label><input type="email" id="registerEmail" required></div><div class="form-group"><label for="registerPassword">Senha:</label><input type="password" id="registerPassword" required></div><button type="submit" class="btn">Criar Conta</button></form></div></div>
+    <div class="modal" id="ticketDetailModal"><div class="modal-content large"><button class="modal-close" onclick="closeModal('ticketDetailModal')">×</button><h2 id="ticketDetailTitle">Detalhes do Chamado</h2><div class="ticket-conversation" id="ticketConversation"></div><div class="ticket-reply-area" id="ticketReplyArea"><hr><h4>Responder ao Cliente</h4><textarea id="ticketReplyInput" rows="4" placeholder="Digite sua resposta..."></textarea><button type="submit" class="btn" id="sendReplyBtn">Enviar Resposta</button></div></div></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
